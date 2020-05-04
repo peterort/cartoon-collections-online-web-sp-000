@@ -16,7 +16,7 @@ def find_the_cheese(string)
   cheese_types = ["cheddar", "gouda", "camembert"]
   found_cheese = []
   string.each do
-    string.include? found_cheese << cheese_types
+    string.include? cheese_types
   end
   return found_cheese[0]
 end
