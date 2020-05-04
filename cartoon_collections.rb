@@ -17,5 +17,5 @@ def find_the_cheese(array)
   found_cheese = []
     array.include? cheese_types << found_cheese
     return found_cheese
-    
+
 end
