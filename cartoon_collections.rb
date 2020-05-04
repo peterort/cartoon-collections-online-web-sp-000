@@ -14,7 +14,5 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  found_cheese = []
-  strings.find found_cheese << cheese_types
-  found_cheese
+  strings.find cheese_types
 end
