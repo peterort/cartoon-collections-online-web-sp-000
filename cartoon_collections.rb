@@ -16,5 +16,4 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   found_cheese = []
   strings.include? found_cheese << cheese_types
-  found_cheese.first
 end
