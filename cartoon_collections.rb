@@ -18,5 +18,5 @@ def find_the_cheese(string)
   string.each do
     string.include? found_cheese << cheese_types
   end
-  return found_cheese.first
+  return found_cheese.first()
 end
