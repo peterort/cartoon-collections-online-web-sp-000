@@ -18,5 +18,5 @@ def find_the_cheese(strings)
   strings.each do
     strings.include? found_cheese << cheese_types
   end
-  found_cheese[0]
+  return found_cheese[0]
 end
