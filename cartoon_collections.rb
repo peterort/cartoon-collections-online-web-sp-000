@@ -18,7 +18,7 @@ def find_the_cheese(array)
     array.include? found_cheese << cheese_types[0]
     array.include? found_cheese << cheese_types[1]
     array.include? found_cheese << cheese_types[2]
-    if found_cheese[0] == [""]
+    if found_cheese == [""]
       return nil
       else return found_cheese[0]
       end
