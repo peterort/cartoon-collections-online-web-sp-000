@@ -12,11 +12,11 @@ def long_planeteer_calls(calls)
   calls.any? {|word| word.length > 4}
 end
 
-def find_the_cheese(strings)
+def find_the_cheese(string)
   cheese_types = ["cheddar", "gouda", "camembert"]
   found_cheese = []
-  strings.each do
-    strings.include? found_cheese << cheese_types
+  string.each do
+    string.include? found_cheese << cheese_types
   end
   return found_cheese[0]
 end
